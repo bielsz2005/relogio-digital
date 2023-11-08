@@ -1,0 +1,60 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Pixelify+Sans&display=swap');
+
+*{
+    margin: 0;    
+}
+
+body{
+    height: 100vh;
+    background: url(https://hugelolcdn.com/hugegifs.com/i/14534.gif) no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Pixelify Sans', cursive;
+    text-align: center;
+    margin: 10vh 0;
+    color: #fff;
+}
+
+#container_geral{
+    margin: auto;
+    background: linear-gradient(120deg, #211E95, #02020B);
+    width: 80vh;
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 3px 3px;
+}
+
+span{
+    font-family: 'Pixelify Sans', cursive;
+    color: #fff;
+    padding: 0 30px;
+}
+
+h2{
+    font-family: 'Pixelify Sans', cursive;
+    color: #fff;
+    padding: 0 30px;
+}
+
+h3{
+    color: #fff;
+}
+
+.container_numero{
+    background-color: #02020B;
+    width: 25%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
